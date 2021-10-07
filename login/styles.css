@@ -1,0 +1,103 @@
+
+        body {
+            font-family: 'roboto';
+        }
+
+        .header {
+            padding: 10px;
+            background-color: #fffbe0;
+            color: #586e9c;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .logo{
+            text-align:center;
+            padding: 7px;
+        }
+        .form{
+            padding: 14px;
+            padding-top: 0px;
+            max-width: 450px;
+            margin:auto;
+        }
+        .btn-login{
+            background-color: #1878f3;
+            color: white;
+            text-align: center;
+            padding:10px;
+            font-weight: bold;
+            width: 100%;
+            border:0px;
+            border-radius: 3px;
+            margin-top: 10px;
+        }
+        .btn-login:focus{
+            background-color: #6fadff;
+        }
+        input{
+            font-size: 14px;
+            padding:12px;
+            width: 100%;
+            border:0px;
+            background-color: #f5f6f8;
+            margin-bottom: 5px;
+            border-radius: 3px;
+        }
+        .forgot{
+            color: #4678d0;
+            text-align: center;
+            font-size: 13px;
+            /* margin-bottom: 4px; */
+        }
+        .createnew{
+            text-align: center;
+        }
+        .createnew button{
+            background-color: #04a005;
+            color: white;
+            text-align: center;
+            padding:10px;
+            font-weight: bold;
+            font-size: 12px;
+            border:0px;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding-left: 20px;padding-right: 20px;
+            letter-spacing: 1px;
+        }
+        .createnew button:focus{
+            background-color: #86df81;
+        }
+        .line{
+            padding-left:14px;
+            padding-right:14px;
+            max-width: 450px;
+            margin: auto;
+        }
+        .languages{
+            margin:auto;
+            max-width: 450px;
+            padding:14px;
+        }
+        table{
+            
+            font-size: 13px;
+            margin:auto;
+            color: #586e9c;
+        }
+        td:nth-child(odd){
+            padding-right: 50px;
+        }
+        td:nth-child(even){
+            padding-left: 50px;
+        }
+        table td a{
+            text-decoration: none;
+            color: #586e9c;
+        }
+        .error{
+            background-color: red;
+            color: white;
+            padding: 5px;
+            font-size: 12px;
+        }

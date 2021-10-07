@@ -1,0 +1,46 @@
+body {
+    background-color: #dfe1ee;
+
+    font-family: 'roboto';
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: #3b5998;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mainblock {
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 3px 3px 0px 0px;
+}
+.afterline{
+    font-size: 14px;
+}
+.seemore{
+    padding:10px;
+    text-align: center;
+    background-color: 	#F5F5F5;
+    margin: 0px;
+    color:#A9A9A9;
+    border-radius: 0px 0px 3px 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.btn-fb{
+    background-color: #4080ff;
+    font-size: 12px;
+    color: white;
+    padding:8px;
+    border:0px solid black;
+    border-radius: 2px;
+    width: 50%;
+}
+.btn-fb:hover{
+    color:white;
+}
